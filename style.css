@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    box-sizing:border-box;
+    font-family:arial;
+    transition:.3s;
+  }
+  .container{
+    background:lightseagreen;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .button{
+    background:transparent;
+    color:white;
+    border:none;
+    padding:1em 1em;
+    font:normal 15pt arial;
+    border-radius:50%;
+    border:1px solid white;
+    cursor:pointer;
+  }
+  .button:hover{
+    background:white;
+    color:black;
+  }
+  p{
+    color:white;
+    font:normal 20pt arial;
+    margin:2em 0;
+  }
+  p span{
+    color:black;
+    font-weight: bold;
+  }
